@@ -1,0 +1,130 @@
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+form input {
+    max-width: 500px;
+}
+footer{
+    margin-top: 20px;
+    background:#eeeeee;
+    color:#333;
+    font-size: 11px;
+    padding: 10px;
+
+}
+#home{
+    background-image: url("../../images/Big.jpg");
+    width: 1365px;
+    height: 642px;
+    font-size: 25px;
+    background-attachment: fixed;
+ }
+
+#spacer{
+    height: 150px;
+}
+
+#hcontent {
+    height: 350px;
+}
+#about {
+background-image: url('../../images/Big3.jpg');
+    height: 396px;
+    background-attachment: fixed;
+}
+#gallery {
+    background-image: url('../../images/Big2.jpg');
+    height: 396px;
+    background-attachment: fixed;
+}
+#event{
+     background-image: url('../../images/Big.jpg');
+     height: 396px;
+     background-attachment: fixed;
+ }
+#club{
+     background-image: url('../../images/Big2.jpg');
+     height: 396px;
+     background-attachment: fixed;
+ }
+#ftr{
+    background-image: url('../../images/Big3.jpg');
+    height: 450px;
+    background-attachment: fixed;
+}
+#mycarousel {
+    position:relative;
+    bottom: 120px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+    -webkit-font-smoothing: antialiased;
+     tect-rendering: optimizelegibility;
+}
+#navhome{
+    background-color: rgba(255,255,255,0.2);
+    z-index: 1000;
+}
+#navhome li a{
+    color: #ffffff;
+}
+#sched {
+    margin-top: 100px;
+}
+#schedule {
+    padding-bottom: 1000px;
+    margin-bottom: 70px;
+}
+.well .page-header {
+    margin-top: 0;
+
+}
+
+.well .page-header h2{
+    margin-top: 0;
+}
+
+ul.unstyled {
+    list-style: none;
+    padding:0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+
+/* --------------------------------------
+   Carousel
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well {
+    margin:20px 0;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
